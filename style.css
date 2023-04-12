@@ -1,3 +1,8 @@
+/* html {
+  scroll-behavior: smooth;
+}
+*/
+
 body {
   background: linear-gradient(#d2ff62, #03afc6);
   font-family: Arial, Helvetica, sans-serif;
@@ -12,13 +17,35 @@ h1 {
   padding-bottom: 1em;
 }
 
-h2 {
-  background-color: skyblue;
-  padding-top: 1em;
-  padding-bottom: 1em;
+.nav {
+  border: black solid 0.1em;
+  background-color: rgba(0, 255, 0, 0.564);
+  padding: 0.2em 0.2em;
+  margin: 0.2em;
+  float: left;
+  display: block;
+  font-size: 17px;
 }
 
-h4 {
-  background-color: lime;
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
+.back-to-top {
+  position: absolute;
+  right: 4em;
+  color: blue;
+  background-color: rgba(255, 166, 0, 0.806);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(16, 170, 16);
+  color: white;
+  text-align: center;
+}
