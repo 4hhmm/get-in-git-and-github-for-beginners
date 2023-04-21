@@ -18,7 +18,6 @@ h1 {
   width: fit-content;
   min-width: 100%;
   padding: .8em;
-
 }
 
 h2 {
@@ -34,6 +33,41 @@ h2 {
   margin: 1.5em;
 }
 
+#container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.accordion label {
+  display: block;
+  border-bottom: black 1px solid;
+  margin: .5em;
+  cursor: pointer;
+  width: 100px;
+  height: fit-content;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: tomato;
+  border-radius: 20px;
+  border: solid 3px;
+}
+
+.accordion :hover{
+  background-color: aqua;
+  color: black;
+}
+
+.single-text {
+  color: red;
+  padding: 10px;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  background-color: bisque;
+}
+
 .nav {
   border: black solid 0.1em;
   background-color: rgba(0, 255, 0, 0.564);
@@ -42,6 +76,18 @@ h2 {
   float: left;
   display: block;
   font-size: 17px;
+}
+
+#accordion1:checked~.single-text {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0;
+}
+
+#accordion1 {
+  display: none;
+  position: relative;
 }
 
 ul.no-bullets {
