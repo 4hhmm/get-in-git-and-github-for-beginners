@@ -117,6 +117,18 @@ ul.no-bullets {
   text-align: center;
 }
 
+#apple-logo{
+  background-image: url(/img/apple.svg);
+}
+
+
+#apple-logo:hover {
+  color: blue;
+}
+
+
+
+
 .apple-logo ol li img a {
   fill: #eefa4d;
 }
