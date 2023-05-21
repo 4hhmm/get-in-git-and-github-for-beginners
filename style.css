@@ -49,6 +49,7 @@ h2 {
   height: fit-content;
   color: white;
   text-align: center;
+  font-size: .7em;
   padding: 10px;
   background-color: tomato;
   border-radius: 20px;
@@ -58,6 +59,11 @@ h2 {
 .accordion :hover {
   background-color: aqua;
   color: black;
+}
+
+#jhu-course{
+  color: red;
+  font-style: italic;
 }
 
 .single-text {
