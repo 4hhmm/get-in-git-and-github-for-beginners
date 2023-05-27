@@ -10,33 +10,37 @@
 </head>
 
 <body>
-    <div>
-        <div id="top">
-            <h1>How to learn programming and solve struggeling for (online) students in Coursera.com
-                and others
-            </h1>
-        </div>
-        <div>
-            <nav>
-                <a href='#Info-DE' class="nav"><b> DE </b> Einleitung</a><br><br>
-            </nav>
 
-            <div>
-                <nav>
-                    <a href='#beginners' class="nav"> Beginners</a>
-                    <a href='#css-note' class="nav"> CSS Note for gitHub</a>
-                    <a href='#advanced' class="nav"> Advanced</a>
-                    <a href="https://4hhmm.github.io/get-in-git-and-github-for-beginners/link-list.html" class="nav"
-                        style="border: 2px solid red; border-radius: 10px;"><b>Link list</b></a>
-                </nav>
-            </div>
-        </div>
+    <div class="header">
+        <h1>Developer Tools</h1>
+    </div>
+    <div>
+        <div id="reading-progress-bar"></div>
+    </div><br>
+
+    <div>
+        <h3>How to learn programming and solve struggeling for (online) students in Coursera.com
+            and others
+        </h3>
+    </div>
+    <div>
+        <nav>
+            <ul class="no-bullets" id="nav-top">
+                <li><a href='#Info-DE' class="nav"><b> DE </b> Einleitung</a></li>
+                <li><a href='#beginners' class="nav"> Beginners</a></li>
+                <li><a href='#css-note' class="nav"> CSS Note for gitHub</a></li>
+                <li><a href='#advanced' class="nav"> Advanced</a></li>
+                <li><a href="https://4hhmm.github.io/get-in-git-and-github-for-beginners/link-list.html"
+                        class="nav"><b>Link
+                            list</b></a></li>
+            </ul>
+        </nav>
     </div>
 
 
     <div>
         <p>
-        <ul class="no-bullets"><br><br><br>
+        <ul class="no-bullets">
             <li># learn programming for beginners and advanced</li>
             <li># get-in-git-and-github-for-beginners</li>
             <li># [and much more]</li>
@@ -382,12 +386,16 @@ Ende "Note for CSS referencing"
             <div class="footer">
                 <footer>
                     <a href="#">
-                        <button style="background-color: white; font-weight: bold; font-size: 1.5em;">&#8682;</button>
+                        <button id="footer-button">&#8682;</button>
                     </a>
                 </footer>
             </div>
         </div>
     </main>
+
+    <!--Reading scroll bar-->
+    <script src="js.js"></script>
+
 </body>
 
 </html>

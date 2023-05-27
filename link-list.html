@@ -7,36 +7,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Link List</title>
   <link rel="stylesheet" href="style.css">
-  <script src="js.js"></script>
+
 </head>
 
 <body>
-  <div>
-    <div id="progress-bar"></div>
+
+  <div class="header">
+    <h1>Developer Tools</h1>
   </div>
+  <div>
+    <div id="reading-progress-bar"></div>
+  </div><br>
+
 
   <div>
-    <h1 style="text-align: center;">Helpfull links to learn programming</h1>
+    <nav>
+      <ul class="nav no-bullets" id="nav-top">
+        <li><a href="https://4hhmm.github.io/get-in-git-and-github-for-beginners"><b>HOME</b> </a></li>
+        <li><a href='#Info-DE' class="nav active"><b> DE </b> Einleitung</a></li>
+        <li><a href='#beginners' class="nav active"> Beginners</a></li>
+        <li><a href='#css-note' class="nav active"> CSS Note for gitHub</a></li>
+        <li><a href='#advanced' class="nav active"> Advanced</a></li>
+        <li><a href="https://4hhmm.github.io/get-in-git-and-github-for-beginners/link-list.html" class="active"><b>Link
+              list</b></a></li>
+      </ul>
+    </nav>
   </div>
-  <nav>
-    <section>
-      <div>
-        <a href="https://4hhmm.github.io/get-in-git-and-github-for-beginners" class="nav"><b>Home</b></a>
-      </div><br>
-    </section>
-  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div>
+    <h3>Helpfull links to learn programming</h3>
+  </div>
 
   <main>
     <div class="why-this-page-was-created">
       <div>
-        <h2 style="text-align: center;">Why this page was created</h2>
+        <p><b>Why this page was created:</b></p>
         <p>The following collection of useful links might help a fast forward reference help during lern programming
           instead of getting lost in nearly unlimited possibilities to search and waste only time.</p>
         <p>The list will be updated and added. Outdated links I apologize.</p>
       </div>
-    </div><br>
+    </div>
 
-    <h3 style="background-color: rgb(16, 170, 16); color: white; text-align: center; padding: 1em;">So, here you go:
+    <h3>So, here you go:
     </h3><br>
 
     <div class="learn-programming">
@@ -47,15 +71,15 @@
           <li><a href="https://www.coursera.org/">Coursera</a></li>
           <p>
           <ul>
-            <li><strong>1st choice recommended and up to date:</strong> <a
+            <li id="marked-orange"><strong>1st choice recommended and up to date:</strong> <a
                 href="https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer">IBM Full Stack
                 Software Developer</a>
             </li>
-            <li id="jhu-course"> <strong><u>not recommended</u></strong> [status 05-2023]: <br>
+            <li id="jhu-course"> <strong>not ! recommended</strong> [status 05-2023]: <br>
               Johns Hopkins University: HTML, CSS, and Javascript for Web Developers, <a
                 href="https://www.coursera.org/learn/html-css-javascript-for-web-developers?=">Course from
                 2015</a><strong> without relevant updates!</strong><br>
-              <div id="container">
+              <div id="container-jhu">
                 <div class="accordion">
                   <label for="accordion1"><b>CAVE:</b> more information ...</label>
                   <input type="checkbox" id="accordion1">
@@ -229,7 +253,7 @@
               href="https://www.freecodecamp.org/news/create-and-sync-git-and-github-repositories/#what-do-git-github-and-repository-mean">
               link</a>
           </li>
-          <li style="background-color: rgb(255, 255, 0, 0.5);">full video introduction from Deborah Kurata
+          <li id="marked-orange">full video introduction from Deborah Kurata
             <strong>recommended
               for absolute beginners!</strong> <a href="https://youtu.be/pICJdbC7j0Q"> link</a>
           </li>
@@ -248,7 +272,8 @@
               erstellen in gitHub <b>DE</b></a> in der Kurzversion heißt dass: neue Datei erstellen > Namen für den
             Ordner eingeben, in der die Datei landen soll und ein <kbd>/</kbd> backslash hinter dem Dateinamen ergänzen,
             <kbd>enter</kbd> drücken, nun MUSS eine Datei generiert werden (keine Generierung leerer Ordner erlaubt),
-            z.B. "file.txt", <kbd>enter</kbd> drücken, damit wär's das auch schon.</li>
+            z.B. "file.txt", <kbd>enter</kbd> drücken, damit wär's das auch schon.
+          </li>
         </ol>
       </div>
     </div>
@@ -480,7 +505,7 @@
 
     <div class="time-date-calender">
       <div>
-        <h2>Something else: Time, Date & Calender</h2>
+        <h2>Extras: Time, Date & Calender</h2>
         <ol>
           <li>
             <a href="https://www.timeanddate.com/">Time, Date, Calender</a> und auch auf <a
@@ -501,12 +526,17 @@
     <div class="footer">
       <footer>
         <a href="#">
-          <button style="background-color: white; font-weight: bold; font-size: 1.5em;">&#8682;</button>
+          <button id="footer-button">&#8682;</button>
         </a>
       </footer>
     </div>
 
   </main>
+
+
+  <!--Reading scroll bar-->
+  <script src="js.js"></script>
+
 </body>
 
 </html>

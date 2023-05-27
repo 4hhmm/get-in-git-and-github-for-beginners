@@ -1,13 +1,11 @@
-let processScroll = () => {
-    let docElem = document.documentElement,
-        docBody = document.body,
-        scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
-        scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight,
-        scrollPercent = scrollTop / scrollBottom * 100 + '%';
 
-    // console.log(scrollTop + ' / ' + scrollBottom + ' / ' + scrollPercent);
+// When the user scrolls the page, execute myFunction 
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_indicator
+window.onscroll = function() {myFunction()};
 
-    document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent);
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("reading-progress-bar").style.width = scrolled + "%";
 }
-
-document.addEventListener('scroll', processScroll);
