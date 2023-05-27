@@ -10,7 +10,10 @@ body {
   margin: 1em 3.5em 4em 3.5em;
 }
 
-/* Progress bar */
+main{
+  margin-top: 3em;
+}
+
 #reading-progress-bar {
   background-color: rgb(3, 175, 198);
   height: .5em;
