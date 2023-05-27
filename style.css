@@ -10,10 +10,9 @@ body {
   margin: 1em 3.5em 4em 3.5em;
 }
 
-
 /* Progress bar */
 #reading-progress-bar {
-  height: .3em;
+  height: .5em;
   position: fixed;
   top: 2.8em;
   left: 0;
@@ -39,7 +38,6 @@ body {
 
 #nav-top li {
   float: left;
-  text-align: center;
   padding: 1px 8px;
   text-decoration: none;
   border-right: 2px solid grey;
@@ -55,6 +53,7 @@ body {
   padding: 2px;
 }
 
+#navtop,
 h1,
 h2,
 h3,
