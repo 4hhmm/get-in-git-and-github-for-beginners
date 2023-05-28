@@ -13,6 +13,7 @@ function myFunction() {
 
 
 // Scroll Percentage Counter
+// /*! Progress 0.0.6 | (c) 2021 Pedro Rogério | MIT License */
 // Licence: MIT
 
 !function(e,t){"use strict";"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?module.exports=t():e.Progress=t()}(this,function(){"use strict";var e,t,n,o=window,i=document,r=document.querySelector(".animated-circle"),s=document.querySelector(".progress-count");function c(){e=o.innerHeight,t=i.body.offsetHeight,n=t-e}function d(){var e,t;c(),e="scroll",(t=i.createEvent("HTMLEvents")).initEvent(e,!0,!1),o.dispatchEvent(t)}return{init:function(){var t;c(),o.addEventListener("scroll",function(){var e;t=this.pageYOffset||i.documentElement.scrollTop,t=Math.max(0,Math.min(1,t/n)),e=t,r.style.strokeDashoffset=126-126*e,s.innerHTML=Math.round(100*e)+"%"},!1),["DOMContentLoaded","load","resize"].map(function(e){o.addEventListener(e,d,!1)})}}});
