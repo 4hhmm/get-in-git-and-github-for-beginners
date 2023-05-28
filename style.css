@@ -57,7 +57,6 @@ svg .animated-circle {
   stroke-dashoffset: 126;
 }
 
-
 #nav-top {
   background-color: rgba(0, 255, 0);
   top: 3em;
@@ -67,17 +66,13 @@ svg .animated-circle {
   width: 100%;
 }
 
-#nav-top ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+#nav-top a {
+  text-decoration: none;
 }
 
 #nav-top li {
   float: left;
   padding: 1px 8px;
-  text-decoration: none;
   border-right: 2px solid grey;
 }
 
@@ -85,17 +80,24 @@ svg .animated-circle {
   border-right: none;
 }
 
-#nav-top li a:hover {
-  background-color: lime;
+a:hover {
+  background-color: orange;
   color: black;
-
+  text-decoration: none;
 }
 
 nav a.active {
   background-color: black;
   color: lime;
   text-decoration: none;
-  padding: 0 0.1em;
+  padding: 0 0;
+}
+
+nav a.active :hover {
+  background-color: lime;
+  color: black;
+  text-decoration: none;
+  border: 3px solid orange;
 }
 
 #navtop,
