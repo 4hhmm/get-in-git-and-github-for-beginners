@@ -17,7 +17,19 @@
     <div>
         <div id="reading-progress-bar"></div>
     </div>
-
+    <!-- The HTML of progress indicator -->
+    <div class="progress-indicator">
+        <svg>
+            <g>
+                <circle cx="0" cy="0" r="20" stroke="black" class="animated-circle"
+                    transform="translate(50,50) rotate(-90)" />
+            </g>
+            <g>
+                <circle cx="0" cy="0" r="38" transform="translate(50,50) rotate(-90)" />
+            </g>
+        </svg>
+        <div class="progress-count"></div>
+    </div>
 
     <div>
         <nav>
@@ -396,6 +408,10 @@ Ende "Note for CSS referencing"
 
     <!--Reading scroll bar-->
     <script src="js.js"></script>
+
+    <!-- Loading and initialize the progress lib -->
+      <script src="/path/to/progress.min.js"></script>
+      <script>Progress.init();</script>
 
 </body>
 
