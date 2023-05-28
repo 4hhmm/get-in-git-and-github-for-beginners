@@ -49,7 +49,7 @@ circle {
 svg .animated-circle {
    fill: transparent;
     stroke-width: 40px;
-    stroke: rgb(255, 69, 0, 0.5);
+    stroke: rgba(255, 140, 0, 0.738);
     stroke-dasharray: 21;
     /*    stroke-dasharray: 126;*/
     stroke-dashoffset: 126;
