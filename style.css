@@ -131,17 +131,10 @@ h3 {
   display: block;
   opacity: 1;
   visibility: visible;
-  margin-bottom: 0;
 }
 
 #accordion1 {
   display: none;
-  position: relative;
-}
-
-ol ul li {
-  margin-left: -1.5em;
-  margin-top: .5em;
 }
 
 ul.no-bullets {
