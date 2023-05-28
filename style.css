@@ -95,7 +95,6 @@ h3 {
 
 .accordion label {
   display: block;
-  border-bottom: black 1px solid;
   cursor: pointer;
   color: white;
   text-align: center;
@@ -116,7 +115,6 @@ h3 {
   background-color: rgba(0, 0, 0);
   border-radius: 10px;
   padding: .1em .4em .2em;
-  margin-top: .5em;
   font-style: italic;
 }
 
@@ -143,6 +141,7 @@ h3 {
 
 ol ul li {
   margin-left: -1.5em;
+  margin-top: .5em;
 }
 
 ul.no-bullets {
