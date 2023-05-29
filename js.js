@@ -35,7 +35,7 @@ for (i = 0; i < acc.length; i++) {
 // open all links in new tabs with JS and without adding it to each link
 
 window.onload = function(){
-  var a = document.getElementById('links').getElementsByTagName('a');
+  var a = document.getElementById('href').getElementsByTagName('a');
   for (var i=0; i<a.length; i++){
       a[i].setAttribute('target', '_blank');
   }
