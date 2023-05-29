@@ -9,7 +9,7 @@ main {
   margin-top: 3.5em;
 }
 
-#header-dev-tools a{
+#header-dev-tools a {
   text-decoration: none;
   color: black;
 }
@@ -27,45 +27,6 @@ main {
   top: 2.7em;
   left: 0;
   background-image: linear-gradient(45deg, rgb(255, 0, 0) 15%, rgb(255, 255, 0) 30%, rgb(0, 255, 0) 45%, rgb(0, 255, 255) 60%, rgb(255, 0, 255) 75%, rgb(0, 0, 255) 90%);
-}
-
-/* percentage progress display */
-.progress-indicator {
-  position: fixed;
-  top: -.14em;
-  right: -.2em;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-}
-
-.progress-count {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 70px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-svg {
-  position: absolute;
-}
-
-circle {
-  fill: rgba(0, 255, 0, 0.2);
-}
-
-svg .animated-circle {
-  fill: transparent;
-  stroke-width: 40px;
-  stroke: rgba(255, 140, 0, 0.738);
-  stroke-dasharray: 21;
-  /*    stroke-dasharray: 126;*/
-  stroke-dashoffset: 126;
 }
 
 #nav-top {
@@ -199,11 +160,11 @@ ul.no-bullets {
   padding: 0;
 }
 
-.recommendation{
+.recommendation {
   background-color: rgba(168, 251, 168, 0.812);
 }
 
-.warning{
+.warning {
   background-color: rgba(251, 168, 168, 0.812);
 }
 
