@@ -34,9 +34,11 @@ for (i = 0; i < acc.length; i++) {
 
 // open all links in new tabs with JS and without adding it to each link
 
-window.onload = function(){
-  var a = document.getElementById('href').getElementsByTagName('a');
-  for (var i=0; i<a.length; i++){
-      a[i].setAttribute('target', '_blank');
+var DOMReady = function(a,b,c){b=document,c='addEventListener';b[c]?b[c]('DOMContentLoaded',a):window.attachEvent('onload',a)}
+
+DOMReady(function () {
+  var aList = document.getElementsByTagName('a');
+  for(var i = 0 ; i < aList.length; i++){
+    aList[i].setAttribute('target', '_blank');
   }
-}
+});
