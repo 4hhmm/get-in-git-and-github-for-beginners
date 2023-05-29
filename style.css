@@ -160,6 +160,10 @@ ul.no-bullets {
   padding: 0;
 }
 
+.blog{
+  padding: 0.1em 1.2em;
+}
+
 .recommendation {
   background-color: rgba(168, 251, 168, 0.812);
 }
