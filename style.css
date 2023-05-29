@@ -9,6 +9,17 @@ main {
   margin-top: 3.5em;
 }
 
+#header-dev-tools a{
+  text-decoration: none;
+  color: black;
+}
+
+#header-dev-tools a:hover {
+  text-decoration: none;
+  padding: .1em 1em;
+  border-radius: 20px;
+}
+
 #reading-progress-bar {
   background-color: rgb(3, 175, 198);
   height: 5px;
@@ -84,6 +95,8 @@ a:hover {
   background-color: orange;
   color: black;
   text-decoration: none;
+  padding: .2em;
+  border-radius: 20px;
 }
 
 nav a.active {
@@ -97,7 +110,6 @@ nav a.active :hover {
   background-color: lime;
   color: black;
   text-decoration: none;
-  border: 3px solid orange;
 }
 
 #navtop,
@@ -185,6 +197,14 @@ ul.no-bullets {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.recommendation{
+  background-color: rgba(168, 251, 168, 0.812);
+}
+
+.warning{
+  background-color: rgba(251, 168, 168, 0.812);
 }
 
 .footer {
