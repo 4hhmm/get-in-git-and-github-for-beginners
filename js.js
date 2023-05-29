@@ -32,13 +32,11 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-// open all links in new tabs with JS and without adding it to each link
+// open all links in a new tab WITHOUT adding to all links the target="_blank"
+// this small lines make it for all
+// https://stackoverflow.com/questions/12235585/is-there-a-way-to-open-all-a-href-links-on-a-page-in-new-windows#12235614
 
-var DOMReady = function(a,b,c){b=document,c='addEventListener';b[c]?b[c]('DOMContentLoaded',a):window.attachEvent('onload',a)}
-
-DOMReady(function () {
-  var aList = document.getElementsByTagName('a');
-  for(var i = 0 ; i < aList.length; i++){
-    aList[i].setAttribute('target', '_blank');
-  }
-});
+var links = document.links;
+for (var i = 0; i < links.length; i++) {
+  links[i].target = "_blank";
+}
