@@ -244,7 +244,7 @@ ul.no-bullets {
 
 #footer-button::before {
   content: '';
-  width: 0;
+  width: 2em;
   height: 1.2em;
   border-radius: 30em;
   position: absolute;
