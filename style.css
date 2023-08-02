@@ -225,27 +225,27 @@ ul.no-bullets {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 1.8em;
+  height: 2.7em;
   background-color: rgb(16, 170, 16, .6);
 }
 
 #footer-button {
   width: 9em;
-  height: 1.4em;
+  height: 2em;
   border-radius: 30px;
   font-size: 15px;
   font-weight: bold;
   border: none;
   position: relative;
-  margin-top: .2em;
+  margin-top: .4em;
   overflow: hidden;
   z-index: 1;
 }
 
 #footer-button::before {
   content: '';
-  width: 2em;
-  height: 1.2em;
+  width: 2.8em;
+  height: 1.8em;
   border-radius: 30em;
   position: absolute;
   top: 0;
