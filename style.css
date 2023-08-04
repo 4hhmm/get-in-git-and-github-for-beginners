@@ -167,7 +167,7 @@ h3 {
   /* Unicode character for "plus" sign (+) */
   float: left;
   margin: em 0 0;
-  }
+}
 
 .accordion.active:after {
   content: "\2796";
