@@ -139,7 +139,7 @@ h3 {
   background-color: rgb(255, 212, 195);
   cursor: pointer;
   padding: .5em;
-  width: 90%;
+  margin-right: 3em;
   border: none;
   text-align: left;
   outline: none;
@@ -154,7 +154,8 @@ h3 {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   background-color: rgb(128, 128, 128, .5);
-  padding: 0 18px;
+  padding: 0 0.5em;
+  margin-right: 3em;
   max-height: 0;
   overflow: hidden;
   transition: max-height .2s ease-out;
