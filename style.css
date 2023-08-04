@@ -161,11 +161,11 @@ h3 {
 }
 
 .accordion:after {
-  content: '\02795''... Klick here to read more details ...';
+  content: '\02795' ' Klick here to read more details ...';
   font-weight: bold;
   /* Unicode character for "plus" sign (+) */
   float: left;
-  margin: 1em 0 0;
+  margin: em 0 0;
   }
 
 .accordion.active:after {
